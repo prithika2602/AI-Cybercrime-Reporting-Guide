@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#1c3760"/></linearGradient></defs>
+<rect width="1080" height="1350" fill="url(#g)"/>
+<circle cx="930" cy="140" r="260" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/><circle cx="930" cy="140" r="190" fill="none" stroke="#62d7d0" stroke-opacity=".16" stroke-width="2"/>
+<text x="90" y="110" fill="#62d7d0" font-family="Arial" font-size="26" font-weight="bold" letter-spacing="6">CYBERSAFE INDIA</text>
+<text x="90" y="270" fill="#ffffff" font-family="Arial" font-size="78" font-weight="bold">PAUSE.</text><text x="90" y="365" fill="#62d7d0" font-family="Arial" font-size="78" font-weight="bold">VERIFY.</text><text x="90" y="460" fill="#ffffff" font-family="Arial" font-size="78" font-weight="bold">REPORT.</text>
+<text x="94" y="525" fill="#c4d0df" font-family="Arial" font-size="27">A simple guide to cybercrime reporting in India</text>
+<rect x="90" y="620" width="900" height="250" rx="28" fill="#ffffff"/>
+<text x="145" y="710" fill="#2459e0" font-family="Arial" font-size="30" font-weight="bold">FINANCIAL CYBER FRAUD?</text>
+<text x="145" y="810" fill="#142033" font-family="Arial" font-size="104" font-weight="bold">1930</text>
+<text x="490" y="800" fill="#536277" font-family="Arial" font-size="25">Call immediately</text>
+<text x="90" y="970" fill="#ffffff" font-family="Arial" font-size="30" font-weight="bold">1  Preserve original evidence</text>
+<text x="90" y="1035" fill="#ffffff" font-family="Arial" font-size="30" font-weight="bold">2  Contact your bank through official channels</text>
+<text x="90" y="1100" fill="#ffffff" font-family="Arial" font-size="30" font-weight="bold">3  Report at cybercrime.gov.in</text>
+<line x1="90" y1="1170" x2="990" y2="1170" stroke="#ffffff" stroke-opacity=".25"/>
+<text x="90" y="1230" fill="#62d7d0" font-family="Arial" font-size="26" font-weight="bold">cybercrime.gov.in</text>
+<text x="90" y="1285" fill="#aebed1" font-family="Arial" font-size="19">Educational awareness only. Verify current official instructions.</text>
+</svg>

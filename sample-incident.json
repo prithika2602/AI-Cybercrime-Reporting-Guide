@@ -1,0 +1,31 @@
+{
+  "case_id": "FICTIONAL-001",
+  "fictional": true,
+  "incident_type": "UPI financial fraud",
+  "person": "Asha (fictional student)",
+  "incident_summary": "A fictional student notices an unauthorised debit after responding to a suspicious payment request.",
+  "timeline": [
+    {
+      "time": "10:05",
+      "event": "Received an unexpected payment-related message (fictional)."
+    },
+    {
+      "time": "10:12",
+      "event": "Noticed an unauthorised debit in a sample account statement."
+    },
+    {
+      "time": "10:15",
+      "event": "Called the official financial cyber-fraud helpline 1930 (demonstration step)."
+    },
+    {
+      "time": "10:25",
+      "event": "Contacted the bank through the official app and preserved the transaction reference."
+    }
+  ],
+  "evidence_placeholders": [
+    "fictional transaction reference",
+    "fictional timestamp",
+    "fictional message screenshot placeholder"
+  ],
+  "safety_note": "No real bank, phone number, account number, UPI ID, person or payment data is included."
+}
