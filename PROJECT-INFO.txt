@@ -1,0 +1,7 @@
+Project: AI Cybercrime Reporting and Cyber Law Awareness Guide
+Capstone: 26
+Country focus: India
+Build: Static HTML/CSS/JavaScript; no backend or API keys required
+Entry point: index.html
+Quiz: quiz.html
+Source review date: 04 November 2026

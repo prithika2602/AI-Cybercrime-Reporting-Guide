@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An educational, AI-assisted guide to reporting cybercrime in India and understanding basic cyber-law concepts.">
+  <meta name="theme-color" content="#101827">
+  <title>CyberSafe India — Cybercrime Reporting Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="CyberSafe India home"><span class="brand-mark">CS</span><span>CyberSafe <b>India</b></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#report">Report guide</a><a href="#situations">What happened?</a><a href="#law">Cyber law</a><a href="#learn">Learn</a>
+    </nav>
+    <a class="nav-cta" href="https://cybercrime.gov.in/" target="_blank" rel="noopener">Official portal ↗</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> DIGITAL SAFETY • INDIA</p>
+        <h1>Know the steps.<br><em>Report with confidence.</em></h1>
+        <p class="hero-lead">A practical, student-friendly guide to recognising cybercrime, preserving evidence and reaching the right official reporting channel.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#situations">Build my action checklist <span>→</span></a>
+          <a class="button ghost" href="#report">See reporting steps</a>
+        </div>
+        <p class="micro">Educational project · Not a police service or legal advice</p>
+      </div>
+      <div class="hero-panel">
+        <div class="panel-top"><span>QUICK RESPONSE</span><span class="status">● INDIA</span></div>
+        <div class="helpline">1930</div>
+        <h2>Financial cyber fraud helpline</h2>
+        <p>If money has been transferred or debited through a cyber fraud, contact the helpline immediately and also submit the complaint through the official portal.</p>
+        <a href="tel:1930" class="call-link">Call 1930 <span>↗</span></a>
+        <div class="panel-foot"><span>Official portal</span><a href="https://cybercrime.gov.in/" target="_blank" rel="noopener">cybercrime.gov.in ↗</a></div>
+      </div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="trust-strip" aria-label="Project principles">
+      <div><b>01</b><span>Act quickly</span></div><div><b>02</b><span>Preserve evidence</span></div><div><b>03</b><span>Use official channels</span></div><div><b>04</b><span>Verify every claim</span></div>
+    </section>
+
+    <section class="section" id="report">
+      <div class="section-heading"><div><p class="eyebrow">FIRST RESPONSE</p><h2>What to do first</h2></div><p>Keep calm. Do not delete messages, emails, transaction alerts or other original evidence.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-no">01</span><div class="step-icon">◉</div><h3>Stop further loss</h3><p>For financial fraud, contact <b>1930 immediately</b>. Contact your bank or payment provider using its official app, website or card statement contact details.</p></article>
+        <article class="step-card"><span class="step-no">02</span><div class="step-icon">▣</div><h3>Secure your accounts</h3><p>From a trusted device, change compromised passwords, sign out unknown sessions and enable multi-factor authentication. Never share an OTP or PIN.</p></article>
+        <article class="step-card"><span class="step-no">03</span><div class="step-icon">⌁</div><h3>Preserve evidence</h3><p>Save screenshots, URLs, phone numbers, email headers, chat records, transaction IDs, dates and acknowledgement numbers. Keep originals unchanged.</p></article>
+        <article class="step-card"><span class="step-no">04</span><div class="step-icon">↗</div><h3>Report officially</h3><p>Use the National Cyber Crime Reporting Portal. For urgent danger or immediate threats, contact local police/emergency services as appropriate.</p></article>
+      </div>
+      <div class="notice"><span class="notice-icon">!</span><p><b>Important:</b> Reporting does not guarantee recovery of money or immediate account blocking. The portal routes complaints to law-enforcement agencies; follow up with your bank and the relevant police authority.</p></div>
+    </section>
+
+    <section class="section scenario-section" id="situations">
+      <div class="section-heading"><div><p class="eyebrow">INTERACTIVE CHECKLIST BUILDER</p><h2>What happened to you?</h2></div><p>Choose the closest situation to generate a practical checklist. This tool runs in your browser and does not submit your information anywhere.</p></div>
+      <div class="scenario-layout">
+        <div class="scenario-picker" role="group" aria-label="Choose an incident type">
+          <button class="scenario-option active" data-scenario="financial"><span class="option-icon">₹</span><span><b>Money / UPI fraud</b><small>Unauthorised payment or transfer</small></span><span class="chevron">›</span></button>
+          <button class="scenario-option" data-scenario="account"><span class="option-icon">⌑</span><span><b>Account hacked</b><small>Email, social media or messaging account</small></span><span class="chevron">›</span></button>
+          <button class="scenario-option" data-scenario="identity"><span class="option-icon">◎</span><span><b>Identity theft / impersonation</b><small>Someone is using your identity</small></span><span class="chevron">›</span></button>
+          <button class="scenario-option" data-scenario="harassment"><span class="option-icon">✳</span><span><b>Online harassment / threats</b><small>Threatening, abusive or repeated contact</small></span><span class="chevron">›</span></button>
+          <button class="scenario-option" data-scenario="intimate"><span class="option-icon">◇</span><span><b>Private or intimate content</b><small>Non-consensual sharing or exploitation</small></span><span class="chevron">›</span></button>
+        </div>
+        <div class="checklist-panel">
+          <div class="checklist-head"><div><span class="tag">YOUR ACTION PLAN</span><h3 id="scenario-title">Money / UPI fraud</h3></div><span class="live-dot">● Ready</span></div>
+          <p id="scenario-intro" class="scenario-intro">If money has been debited or transferred without your consent, act immediately.</p>
+          <div id="checklist" class="checklist"></div>
+          <div class="checklist-actions"><button id="copy-checklist" class="button primary small">Copy checklist</button><button id="download-checklist" class="button outline small">Download .txt</button></div>
+          <p class="privacy-note">✓ Your selections stay in this browser session. Do not enter passwords, OTPs, PINs or full card details.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section law-section" id="law">
+      <div class="section-heading"><div><p class="eyebrow">LEGAL AWARENESS</p><h2>Cyber law, in simple terms</h2></div><p>These are examples of provisions in Indian law that may be relevant. The exact provision depends on facts and legal assessment.</p></div>
+      <div class="law-grid">
+        <article class="law-card"><span>IT ACT · 2000</span><h3>Section 66</h3><p>Computer-related offences involving dishonest or fraudulent acts covered by the Act.</p></article>
+        <article class="law-card"><span>IT ACT · 2000</span><h3>Section 66C</h3><p>Identity theft: fraudulent or dishonest use of another person’s electronic signature, password or unique identification feature.</p></article>
+        <article class="law-card"><span>IT ACT · 2000</span><h3>Section 66D</h3><p>Cheating by personation using a communication device or computer resource.</p></article>
+        <article class="law-card"><span>IT ACT · 2000</span><h3>Section 66E</h3><p>Violation of privacy through capturing, publishing or transmitting images of a private area in circumstances covered by the section.</p></article>
+        <article class="law-card"><span>IT ACT · 2000</span><h3>Sections 67 / 67A</h3><p>Provisions relating to publishing or transmitting obscene material and sexually explicit material in electronic form.</p></article>
+        <article class="law-card"><span>IT ACT · 2000</span><h3>Section 67B</h3><p>Provision relating to material depicting children in sexually explicit acts in electronic form. Do not download, save or forward such material.</p></article>
+      </div>
+      <div class="notice legal-note"><span class="notice-icon">i</span><p><b>Legal caution:</b> This is a basic awareness summary, not legal advice. Laws, amendments, procedures and interpretations can change. Do not rely on an AI-generated section number or penalty without checking the current official text and consulting a qualified professional.</p></div>
+    </section>
+
+    <section class="section learn-section" id="learn">
+      <div class="section-heading"><div><p class="eyebrow">AWARENESS TOOLKIT</p><h2>Learn. Check. Share.</h2></div><p>Short, practical material for students, families and community awareness.</p></div>
+      <div class="learn-grid">
+        <article class="learn-card featured"><div class="learn-label">AWARENESS ARTICLE</div><h3>Pause before you pay, click or share.</h3><p>Recognise common warning signs, protect evidence and report through trusted channels.</p><a href="docs/awareness-article.md">Read the article ↗</a></article>
+        <article class="learn-card"><div class="learn-label">10-QUESTION QUIZ</div><h3>Test your cyber-safety knowledge.</h3><p>Check what you know about reporting, evidence and account security.</p><a href="quiz.html">Take the quiz ↗</a></article>
+        <article class="learn-card"><div class="learn-label">SHAREABLE POSTS</div><h3>Five messages for awareness.</h3><p>Ready-to-adapt social posts for a student awareness campaign.</p><a href="docs/social-posts.md">View the posts ↗</a></article>
+        <article class="learn-card"><div class="learn-label">PRESENTATION</div><h3>Five-minute project walkthrough.</h3><p>A six-slide outline for a classroom demonstration.</p><a href="docs/presentation.md">View slide outline ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section source-section">
+      <div class="source-box">
+        <div><p class="eyebrow">OFFICIAL SOURCES</p><h2>Go to the source.</h2><p>Use government portals and official legal text. Avoid links sent by unknown callers or messages.</p></div>
+        <div class="source-links">
+          <a href="https://cybercrime.gov.in/" target="_blank" rel="noopener"><span>National Cyber Crime Reporting Portal</span><b>↗</b></a>
+          <a href="https://cybercrime.gov.in/Webform/FAQ.aspx" target="_blank" rel="noopener"><span>Portal FAQs and reporting information</span><b>↗</b></a>
+          <a href="https://www.indiacode.nic.in/" target="_blank" rel="noopener"><span>India Code — official legislation</span><b>↗</b></a>
+          <a href="https://www.mha.gov.in/" target="_blank" rel="noopener"><span>Ministry of Home Affairs</span><b>↗</b></a>
+        </div>
+      </div>
+      <p class="last-updated">Project source review date: 04 November 2026 · Check official sources again before acting.</p>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">CS</span><span>CyberSafe <b>India</b></span></a><p>AI Cybercrime Reporting & Cyber Law Awareness Guide</p><span>Educational use only · Human verification required</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

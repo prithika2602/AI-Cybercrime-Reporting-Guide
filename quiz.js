@@ -1,0 +1,16 @@
+const qs=[
+["What should you do first after noticing an unauthorised UPI transfer?",["Wait a few days to see if it reverses","Call 1930 immediately and contact your bank through official channels","Post your bank details on social media"],1],
+["What is the official National Cyber Crime Reporting Portal?",["cybercrime.gov.in","a random recovery website","a link sent by an unknown caller"],0],
+["Which information should never be shared with a caller claiming to help?",["Transaction date","Complaint acknowledgement number","OTP, UPI PIN or password"],2],
+["Why should original messages and transaction alerts be preserved?",["They may help document and investigate the incident","They automatically recover money","They prove guilt without investigation"],0],
+["What should you do if your social media account is hacked?",["Pay the person who hacked it","Use the official recovery route, secure sessions and change passwords","Share the recovery code with a friend"],1],
+["Which statement about Section 66C of the IT Act is most accurate?",["It concerns identity theft involving another person's electronic signature, password or unique ID feature","It is the general section for every online complaint","It gives an automatic refund"],0],
+["What is a safe response to online impersonation?",["Threaten the impersonator","Share their personal details publicly","Preserve the profile URL and report it to the platform and official portal"],2],
+["If intimate content involving a child is encountered, what should you do?",["Download it as evidence","Do not save or forward it; report it immediately to the official portal / police","Send it to friends for identification"],1],
+["Does filing a cybercrime complaint guarantee recovery of money?",["Yes, always","No; recovery is not guaranteed and follow-up may be needed","Only if you post about it online"],1],
+["How should AI-generated legal information be used?",["Accept it without checking","Treat it as legal advice","Verify it against current official sources and seek qualified advice where needed"],2]
+];
+const form=document.getElementById("quiz");
+qs.forEach((q,i)=>{const box=document.createElement("section");box.className="question";const h=document.createElement("h3");h.textContent=`${i+1}. ${q[0]}`;box.append(h);q[1].forEach((opt,j)=>{const label=document.createElement("label");label.className="answer";label.innerHTML=`<input type="radio" name="q${i}" value="${j}">`;label.append(document.createTextNode(opt));box.append(label)});form.append(box)});
+document.getElementById("submit").addEventListener("click",()=>{let score=0,answered=0;qs.forEach((q,i)=>{const chosen=form.querySelector(`input[name="q${i}"]:checked`);if(chosen){answered++;if(Number(chosen.value)===q[2])score++}});const out=document.getElementById("result");out.className="result";out.textContent=`You scored ${score}/10. Answered: ${answered}/10. ${score>=8?"Great work — keep verifying information and using official channels.":score>=5?"Good start — review the guide and try again.":"Review the reporting steps and safety notes, then retry."}`;});
+document.getElementById("reset").addEventListener("click",()=>document.getElementById("result").textContent="");
